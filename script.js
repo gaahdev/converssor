@@ -15,6 +15,13 @@ async function convertValue() {
     const euro = data.EURBRL.high
     const libra = data.GBPBRL.high
     const bitcoin = data.BTCBRL.high
+    const rates = {
+        real: 1,
+        dolar: 5.2,
+        euro: 6.2,
+        libra: 6.95,
+        bitcoin: 350206.96
+    }
     
 
     const fromCurrency = selectCurrencyTop.value
